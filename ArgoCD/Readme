@@ -1,1 +1,3 @@
-
+GITOPS -> Infrastructure as a code 
+Define IaaC as code instead of manually --> this infrastructure is makes us to reproduce and replicate much easier
+NOTE: IaaC is not only infrastructure as code but also network-as-code,configuration-as-code,security-as-code,policy-as-code etc
