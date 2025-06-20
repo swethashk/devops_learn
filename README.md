@@ -1,4 +1,4 @@
-#  Kubernetes Manifest Files
+######  Kubernetes Manifest Files
 
 Kubernetes manifest files are YAML (or JSON) configuration files used to define the **desired state** of objects in a Kubernetes cluster—such as pods, deployments, services, and more.
 
@@ -6,7 +6,7 @@ These files tell Kubernetes **what resources to create and manage**, and **how**
 
 ---
 
-## Common Kubernetes Resource Types
+###### Common Kubernetes Resource Types
 
 | Resource     | Description |
 |--------------|-------------|
@@ -20,7 +20,7 @@ These files tell Kubernetes **what resources to create and manage**, and **how**
 
 ---
 
-##  Sample Deployment Manifest
+######  Sample Deployment Manifest
 
 ```yaml
 apiVersion: apps/v1
