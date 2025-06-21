@@ -1,9 +1,9 @@
 apiVersion: apps/v1
-kind: deployment
+kind: Deployment
 metadata:
   name: rangoli-app
 spec:
-  replica: 1
+  replicas: 1
   selector:
     matchLabels:
       app: rangoli
@@ -17,5 +17,3 @@ spec:
           image: rangoli-app:v1
           ports:
             - containerPort: 80
-        
-  
