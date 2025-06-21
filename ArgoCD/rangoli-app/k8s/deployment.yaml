@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: rangoli
-          image: rangoli-app:v1
+          image: rangoli-app:v3
           ports:
             - containerPort: 80
